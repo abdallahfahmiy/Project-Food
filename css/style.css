@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.min-nav,
+.footer-nav,
+.social-nav {
+    display: flex;
+    list-style: none;
+}
+
+.min-nav li,
+.footer-nav li,
+.social-nav li {
+    margin-left: 25px;
+}
+
+.min-nav li a,
+.footer-nav li a,
+.social-nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.min-nav li a:hover,
+.footer-nav li a:hover,
+.social-nav li a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.hero {
+    position: absolute;
+    top: 38%;
+}
+
+h1 {
+    color: bisque;
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: solid orange 1px;
+    text-decoration: none;
+    color: orange;
+    padding: 11px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+
+
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+
+}
+
+section {
+    padding: 40px 0px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    margin: 20px auto;
+    border: solid orange 2px;
+    border-radius: 6px;
+}
+
+.feat-desc {
+    width: 65%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.feat i {
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.feat h3 {
+    margin-bottom: 15px;
+}
+
+.feat p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.meal {
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img {
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1.2);
+
+}
+
+.meal img:hover {
+
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.mrow {
+    margin-right: 0px;
+}
+
+.left-work {
+    text-align: right;
+}
+
+.left-work img {
+    width: 40%;
+
+}
+
+.step {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.right-work h4 {
+    margin-right: 20px;
+    border: solid 2px orange;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: orange;
+}
+
+.step img {
+    width: 30%;
+    margin-right: -20px;
+    margin-left: 30px;
+}
+
+
+.work img {
+    width: 100%;
+
+}
+
+.city h3 {
+    margin-bottom: 15px;
+}
+
+.city img {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.city-info {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.city-info i {
+    color: orange;
+    margin-right: 15px;
+}
+
+.city-info a {
+    color: orange;
+
+}
+.AAA{
+    display: flex;
+}
+
+
+#testimonials {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.customer i {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.customer p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.customer img {
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+
+.Sign-up {
+    background-color: #F4F4F4;
+
+}
+
+.aya {
+    background-color: #FCFCFC;
+    padding: 20px 15px 5px 15px;
+    border-bottom: solid 2px #F4F4F4;
+}
+
+.aya p {
+    margin-bottom: 0;
+}
+
+
+
+
+.pricing h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.pricing span {
+    font-size: 35px;
+}
+
+.pricing h5 {
+    color: orange;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.pricing{
+margin-right: 35px;
+}
+
+
+
+.plans p {
+    margin-bottom: 12px;
+
+}
+
+.plans-3 {
+    background-color: #FCFCFC;
+    margin-top: 15px;
+    align-items: center;
+}
+
+
+.plans i {
+    color: orange;
+    margin-right: 15px;
+    font-size: 13px;
+    margin-left: 10%;
+    
+}
+
+.plans {
+
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.button-2 {
+    border-top: solid 2px #F1F1F1;
+    background-color: #FFFFFF;
+    margin-top: 7px;
+
+}
+
+
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+
+    padding: 10px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* font-size: 20px; */
+}
+
+input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 5px;
+    border: solid 2px orange;
+    padding: 10px 25px;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+button:hover {
+    color: orange;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.formm {
+    /* margin-top: 10px; */
+    display: block;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+}
+
+.formm h2 {
+    margin-top: 45px;
+    font-size: 25px;
+    word-spacing: 3px;
+}
+
+footer {
+    padding: 50px 0px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.social-nav {
+    justify-content: end;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer p span {
+    color: green;
+    font-size: 20px;
+}
